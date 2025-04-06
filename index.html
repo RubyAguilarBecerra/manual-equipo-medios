@@ -11,23 +11,36 @@
 </head>
 <body>
 
-  <!-- Barra lateral -->
-  <aside class="sidebar">
-    <h2>Secciones</h2>
-    <ul>
-      <li><a href="#inicio">Inicio</a></li>
-      <li><a href="#introduccion">Introduccion</a></li>
-      <li><a href="#holyris">Holyris</a></li>
-      <li><a href="#obs">OBS</a></li>
-      <li><a href="#camo">Camo Camara</a></li>
-      <li><a href="#video">Video</a></li>
-      <li><a href="#fotografia">Fotografía</a></li>
-      <li><a href="#luces">Luces</a></li>
-      <li><a href="#redes-sociales">Redes Sociales</a></li>
-      <li><a href="#diseno-grafico">Diseño Gráfico</a></li>
-    </ul>
-    <button id="modoToggle">🌙 Modo Oscuro</button>
-  </aside>
+   <!-- Botón hamburguesa para móviles -->
+    <button class="menu-toggle" onclick="toggleSidebar()">☰ Menú</button>
+
+    <!-- Barra lateral -->
+    <aside class="sidebar" id="sidebar">
+        <!-- Contenedor del contenido principal del menú -->
+        <div class="contenido-menu">
+          <h2>Secciones</h2>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#introduccion">Introducción</a></li>
+            <li><a href="#holyris">Holyris</a></li>
+            <li><a href="#obs">OBS</a></li>
+            <li><a href="#camo">Camo Cámara</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#fotografia">Fotografía</a></li>
+            <li><a href="#luces">Luces</a></li>
+            <li><a href="#redes-sociales">Redes Sociales</a></li>
+            <li><a href="#diseno-grafico">Diseño Gráfico</a></li>
+          </ul>
+          <button id="modoToggle">🌙 Modo Oscuro</button>
+        </div>
+      
+        <!-- Footer fijo abajo -->
+        <div class="footer-menu">
+          Desarrollado por Ruby Aguilar
+        </div>
+      </aside>
+      
+
 
   <!-- Contenido principal -->
   <main class="content">
@@ -607,5 +620,6 @@
 
   </main>
 
+  <script src="script.js"></script>
 </body>
 </html>
