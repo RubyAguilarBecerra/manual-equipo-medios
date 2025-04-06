@@ -38,6 +38,37 @@
     height: 90px; /* ajusta el tamaño del logo */
     width: auto;
   }
+
+  .checklist-box {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .checklist-box h4 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .checklist {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .checklist li {
+    margin-bottom: 8px;
+  }
+  
+  .video-box {
+    margin-top: 30px;
+    padding: 10px;
+    background: #e9f5ff;
+    border-left: 4px solid #2196F3;
+    border-radius: 8px;
+  }
+  
   
   
   /* Sidebar */
