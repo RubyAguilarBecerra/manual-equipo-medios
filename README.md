@@ -9,7 +9,7 @@ Este manual busca brindar una guía clara, visual y práctica para el uso de her
 
 ## 🛠️ Herramientas Cubiertas
 
-- 🎵 **Holyris**: Cómo proyectar letras de canciones, versículos bíblicos, etc.
+- 🎵 **Holyrics**: Cómo proyectar letras de canciones, versículos bíblicos, etc.
 - 📹 **OBS Studio**: Grabación, transmisión y configuración para servicios.
 - 📱 **Camo Cam**: Uso del celular como cámara profesional.
 - 📸 **Fotografía**: Tips, encuadres y estilo visual de Aviva.
